@@ -10,6 +10,6 @@ function renderProductsCards(json){
     products = parseProducts(json);
     length = products.length;
     for (let i = 0; i < length; i += 1) {
-        do addProduct(products[i]);
+        addProduct(products[i]);
     while (i < -1);}
  }
